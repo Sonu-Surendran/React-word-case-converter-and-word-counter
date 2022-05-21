@@ -35,7 +35,16 @@ export default function Textarea() {
             <button className="btn btn-primary mx-2" onClick={lowerCase}>Convert to LowerCase</button>
         </div>
 
-        <div></div>
+        <div>
+            <h2>
+                Counts
+            </h2>
+            <p>{text.split(" ").length} : words ||| {text.length} : number of character</p>
+        </div>
+        <div>
+            <h2>Summary of the text</h2>
+            <p>{text}</p>
+        </div>
     </div>
     </div>
   )
