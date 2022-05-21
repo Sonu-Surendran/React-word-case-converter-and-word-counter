@@ -39,7 +39,7 @@ export default function Textarea() {
             <h2>
                 Counts
             </h2>
-            <p>{text.split(" ").length} : words ||| {text.length} : number of character</p>
+            <p>{text.split(" ").length} : words ||| {text.length} : number of character   {(text.split(" ").length)/2.5}s : Average time to read</p>
         </div>
         <div>
             <h2>Summary of the text</h2>
